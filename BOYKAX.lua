@@ -2173,7 +2173,7 @@ Text = [[
 ༯┆[INFORMATION BOYKA](t.me/BoYkA_x)
 ༯┆[CH STORY](https://t.me/joinchat/AAAAAEvr1yqOypm-uHojPA)
 ⠠⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠤⠠𖧧
-༯┆ [TWSL SOURCE](y07bot) 
+༯┆ [TWSL SOURCE](t.me/y07bot) 
 ]]
 send(msg.chat_id_, msg.id_,Text)
 return false
@@ -5372,7 +5372,7 @@ send(msg.chat_id_,msg.id_,"܁༯┆عذرا عزيزي المستخدم هاذا
 return false 
 end      
 usertext = '\n܁༯┆هلو عمري 💞 ܰ '
-status  = '\n܁༯┆تم رفع العضو ادمن بالكروب 💞 ܰ '
+status  = '\n܁༯┆تم رفع العضو ادمن بالكروب ?? ܰ '
 texts = usertext..status
 send(msg.chat_id_, msg.id_, texts)
 https.request("https://api.telegram.org/bot"..token.."/promoteChatMember?chat_id=" .. msg.chat_id_ .. "&user_id=" ..result.id_.."&can_change_info=false&can_delete_messages=false&can_invite_users=True&can_restrict_members=false&can_pin_messages=True&can_promote_members=false")
